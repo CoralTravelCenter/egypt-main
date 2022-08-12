@@ -22,13 +22,27 @@
 			> .contenu {
 				padding: 0;
 				.proportional(1370/500);
-				background: url("../iii/kv-desktop.jpg") center no-repeat;
+				background: url("../iii/kv-02-desktop.jpg") center no-repeat;
 				background-size: cover;
 				border-radius: 1em;
 				@media screen and (max-width: @mobile-breakpoint) {
 					.proportional(720/980);
 					border-radius: 0;
-					background-image: url(../iii/kv-mobile.jpg);
+					background-image: url(../iii/kv-02-mobile.jpg);
+				}
+			}
+		}
+		&.business-class {
+			> .contenu {
+				padding: 0;
+				.proportional(1370/520);
+				background: url("../iii/business-class-desktop.jpg") center no-repeat;
+				background-size: cover;
+				border-radius: 1em;
+				@media screen and (max-width: @mobile-breakpoint) {
+					.proportional(720/855);
+					border-radius: 0;
+					background-image: url(../iii/business-class-mobile.jpg);
 				}
 			}
 		}

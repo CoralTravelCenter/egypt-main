@@ -222,7 +222,7 @@ body > div.contentLayout-BaseContainer > div.notcritical > div > div:nth-child(2
 #site-wrap section.intro > .contenu {
   padding: 0;
   position: relative;
-  background: url("../iii/kv-desktop.jpg") center no-repeat;
+  background: url("../iii/kv-02-desktop.jpg") center no-repeat;
   background-size: cover;
   border-radius: 1em;
 }
@@ -242,7 +242,7 @@ body > div.contentLayout-BaseContainer > div.notcritical > div > div:nth-child(2
   #site-wrap section.intro > .contenu {
     position: relative;
     border-radius: 0;
-    background-image: url(../iii/kv-mobile.jpg);
+    background-image: url(../iii/kv-02-mobile.jpg);
   }
   #site-wrap section.intro > .contenu:before {
     content: '';
@@ -250,6 +250,44 @@ body > div.contentLayout-BaseContainer > div.notcritical > div > div:nth-child(2
     padding-top: 136.11111111%;
   }
   #site-wrap section.intro > .contenu > * {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+#site-wrap section.business-class > .contenu {
+  padding: 0;
+  position: relative;
+  background: url("../iii/business-class-desktop.jpg") center no-repeat;
+  background-size: cover;
+  border-radius: 1em;
+}
+#site-wrap section.business-class > .contenu:before {
+  content: '';
+  display: block;
+  padding-top: 37.95620438%;
+}
+#site-wrap section.business-class > .contenu > * {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+@media screen and (max-width: 768px) {
+  #site-wrap section.business-class > .contenu {
+    position: relative;
+    border-radius: 0;
+    background-image: url(../iii/business-class-mobile.jpg);
+  }
+  #site-wrap section.business-class > .contenu:before {
+    content: '';
+    display: block;
+    padding-top: 118.75%;
+  }
+  #site-wrap section.business-class > .contenu > * {
     position: absolute;
     left: 0;
     top: 0;
